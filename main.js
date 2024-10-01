@@ -1,6 +1,6 @@
 import './style.css'
 
-import { galleryList } from './public/src/components/gallery/gallery'
+import { galleryList } from './src/components/gallery/gallery'
 
 const header = () => {
   return `<img src="https://res.cloudinary.com/dzviuc0zj/image/upload/v1712866571/Mis%20imagenes/Pinterest-logo_awlvn5.png" class="logo">
