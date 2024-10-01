@@ -1,9 +1,9 @@
 :root {
-  --color-background: #5fb1bf;
+  --color-background: #ffffffdc;
   --primary: #f76a55;
   --secondary: #ef9001;
   --logo: #ff9b3d;
-  --transparent: #ffffffdc;
+  --transparent: #5fb1bf;
 }
 
 * {
@@ -16,4 +16,17 @@ body {
   background-color: var(--color-background);
   color: var(--primary);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > img {
+  width: 50px;
+}
+
+#user-area > a > img {
+  width: 50px;
 }
